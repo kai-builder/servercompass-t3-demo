@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Manrope", sans-serif;
+    color: #e9efff;
+    background-color: #0c1427;
+  }
+}

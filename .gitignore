@@ -1,6 +1,18 @@
+# dependencies
 node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# environment files — never commit secrets
 .env
 .env.local
+.env.*.local
+
+# OS / editor artefacts
 .DS_Store
-*.swp
 *.log
+npm-debug.log*
+.vscode/
+.idea/
